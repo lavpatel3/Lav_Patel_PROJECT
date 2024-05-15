@@ -1,0 +1,86 @@
+.hidden{
+    display: none;
+  }
+  
+  @font-face{
+    .poetsen-one-regular {
+      font-family: "Poetsen One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }  
+  }
+  
+  #container{
+    width: 440px;
+    margin: 20px auto;
+    border: solid 3px rgba(206, 118, 118, 0.378);
+    background-color: #6f4e37;
+    border-radius: 20px;
+  }
+  
+  #maincontent{
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    grid-column-gap: 16px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+  
+  header{
+    grid-column: 1/-1;
+    background-position: right;
+    background-size: 430px;
+  }
+  
+  header h2{
+    font-family: "Poetsen One", sans-serif;
+    text-align: center;
+    color: #ffbb8a ;
+    letter-spacing: 5px;
+  }
+  
+  article{
+    grid-column: 1/-1;
+  }
+  
+  p::first-letter {
+    font-size: 200%;
+    color:#ffbb8a ;
+    font: bolder;
+    border-radius: 20px ;
+  }
+  
+  h3{
+    font-family: "Poetsen One", sans-serif;
+    font: bold;
+    color: #ffbb8a ;
+  }  
+  
+  p{
+    color: rgb(237, 225, 225);
+    font-family: "Poetsen One", sans-serif;
+  }
+  
+  .name{
+    text-decoration: underline rgb(237, 225, 225);
+    color: black;
+  }
+  
+  .name>h3{
+    color: black;
+  }
+  
+  .name>p{
+    color: black;
+  }
+  
+  
+  footer{
+    opacity: 70%;
+    font-family: "Poetsen One", sans-serif;
+    text-size-adjust: 10px;
+    
+  }
+  
